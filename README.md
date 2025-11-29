@@ -143,7 +143,7 @@ The system will automatically create files for flights, passengers and admins to
 
 ### Using Command Line
 
-#### macOS/Linux
+#### macOS
 ```bash
 # Generate Makefile
 qmake AirlineSystem.pro
