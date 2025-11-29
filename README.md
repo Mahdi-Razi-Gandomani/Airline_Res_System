@@ -130,10 +130,7 @@ If you're not on macOS ARM64, update `AirlineSystem.pro`:
 - Update library paths for jsoncpp and curl if needed
 
 ### 6. Create Data Files
-The system will automatically create these files on first run:
-- `flights.csv` - Flight data
-- `passengers.csv` - Passenger information
-- `admins.csv` - Admin accounts
+The system will automatically create files for flights, passengers and admins to keep data persistent.
 
 **Default Admin Credentials**:
 - Username: `admin`
@@ -161,7 +158,7 @@ make
 qmake AirlineSystem.pro
 
 # Build
-nmake  # or mingw32-make for MinGW
+nmake 
 
 # Run
 bin\AirlineSystem.exe
@@ -184,6 +181,7 @@ AirlineReservationSystem/
 │   └── ChatbotWidget.h
 ├── src/                          # Source files (.cpp)
 │   ├── main_qt.cpp              # Qt application entry point
+│   ├── main.cpp              # CLI version
 │   ├── MainWindow.cpp           # Main GUI window
 │   ├── Person.cpp               # Base person class
 │   ├── Passenger.cpp            # Passenger functionality
@@ -204,11 +202,7 @@ AirlineReservationSystem/
 ├── obj/                          # Object files (auto-generated)
 ├── moc/                          # Qt MOC files (auto-generated)
 ├── model_converter.py            # Python script to convert model
-├── AirlineSystem.pro             # Qt project file
-├── main.cpp                      # CLI version
-├── flights.csv                   # Flight data (auto-generated)
-├── passengers.csv                # Passenger data (auto-generated)
-└── admins.csv                    # Admin data (auto-generated)
+└── AirlineSystem.pro             # Qt project file
 ```
 
 
