@@ -110,9 +110,6 @@ cd Airline_Res_System
 
 ### 3. Convert the AI Model
 ```bash
-# Create models directory
-mkdir models
-
 # Run the model converter
 python model_converter.py
 ```
@@ -203,7 +200,7 @@ AirlineReservationSystem/
 ├── models/                       # AI models (created by converter)
 │   ├── sbert_model.onnx         # Converted BERT model
 │   └── vocab.txt                # BERT vocabulary
-├── onnxruntime-*/               # ONNX Runtime library
+├── onnxruntime-*/               # ONNX Runtime library (you should download and add)
 │   ├── include/
 │   └── lib/
 ├── bin/                          # Compiled executable (auto-generated)
@@ -234,7 +231,4 @@ The chatbot uses a RAG architecture with two phases:
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
