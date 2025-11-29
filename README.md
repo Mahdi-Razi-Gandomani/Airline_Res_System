@@ -1,6 +1,6 @@
-# Airline Reservation System
+# Airline Reservation System + Chatbot
 
-A comprehensive airline reservation system built with Qt6, featuring an AI-powered chatbot assistant that uses RAG (Retrieval-Augmented Generation) architecture with semantic search and LLM technology to help users with bookings, policies, and flight information.
+A comprehensive airline reservation system built with Qt6, featuring a chatbot assistant that uses RAG (Retrieval-Augmented Generation) architecture with semantic search and LLM technology to help users with bookings, policies, and flight information.
 
 ---
 
