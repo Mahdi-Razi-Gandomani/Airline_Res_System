@@ -49,7 +49,7 @@ This project is a full-featured airline reservation system with a modern GUI bui
    # macOS with Homebrew
    brew install qt@6
    
-   # Linux (Ubuntu/Debian)
+   # Linux
    sudo apt-get install qt6-base-dev qt6-base-dev-tools
    
    # Windows
@@ -65,7 +65,7 @@ This project is a full-featured airline reservation system with a modern GUI bui
    # macOS with Homebrew
    brew install jsoncpp
    
-   # Linux (Ubuntu/Debian)
+   # Linux
    sudo apt-get install libjsoncpp-dev
    
    # Windows
@@ -74,10 +74,10 @@ This project is a full-featured airline reservation system with a modern GUI bui
 
 4. **libcurl**
    ```bash
-   # macOS with Homebrew (if needed)
+   # macOS with Homebrew
    brew install curl
    
-   # Linux (Ubuntu/Debian)
+   # Linux
    sudo apt-get install libcurl4-openssl-dev
    
    # Windows
