@@ -29,13 +29,14 @@ These are some screenshots of the app.
 
 
 <p align="center">
-  <img src="screens/search.png" alt="search" width="30%"/>
-  <img src="screens/book.png" alt="book" width="30%"/>
-  <img src="screens/mytickets.png" alt="mytickets" width="30%"/>
+  <img src="screens/search.png" alt="search" width="45%"/>
+  <img src="screens/book.png" alt="book" width="45%"/>
+
 </p>
 
 <p align="center">
-  <img src="screens/chatbot.png" alt="chatbot" width="75%"/>
+  <img src="screens/mytickets.png" alt="mytickets" width="45%"/>
+  <img src="screens/chatbot.png" alt="chatbot" width="45%"/>
 </p>
 
 
