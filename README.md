@@ -2,6 +2,8 @@
 
 A comprehensive airline reservation system built with Qt6, featuring an AI-powered chatbot assistant that uses RAG (Retrieval-Augmented Generation) architecture with semantic search and LLM technology to help users with bookings, policies, and flight information.
 
+---
+
 ## Project Overview
 
 This project is a full-featured airline reservation system with a modern GUI built using Qt Widgets. It includes:
@@ -13,6 +15,8 @@ This project is a full-featured airline reservation system with a modern GUI bui
   - Context-aware responses combining retrieved knowledge with real-time flight/booking data
   - Conversational memory for multi-turn interactions
   - Retrieval-Augmented Generation for accurate, grounded responses
+
+---
 
 ## Features
 
@@ -36,11 +40,9 @@ This project is a full-featured airline reservation system with a modern GUI bui
 - **Conversational memory**: Maintains conversation history for follow-up questions
 - **Intent detection**: Uses semantic similarity for query understanding
 
+---
+
 ## Requirements
-
-### Dependencies
-
-#### Required Libraries
 
 1. **Qt6** (Core, GUI, Widgets, Network)
    ```bash
@@ -86,6 +88,8 @@ This project is a full-featured airline reservation system with a modern GUI bui
 ```bash
 pip install torch transformers onnx
 ```
+
+---
 
 ## Installation
 
@@ -136,6 +140,8 @@ The system will automatically create files for flights, passengers and admins to
 - Username: `admin`
 - Password: `admin123`
 
+---
+
 ## How to Run
 
 ### Using Command Line
@@ -163,6 +169,8 @@ nmake
 # Run
 bin\AirlineSystem.exe
 ```
+
+---
 
 ## Project Structure
 
@@ -205,6 +213,7 @@ AirlineReservationSystem/
 └── AirlineSystem.pro             # Qt project file
 ```
 
+---
 
 ### the Chatbot
 The chatbot uses a RAG architecture with two phases:
@@ -223,10 +232,9 @@ The chatbot uses a RAG architecture with two phases:
 - LLM generates response grounded in retrieved information
 - Response is displayed in chat interface
 
+---
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
-**Note**: This is an educational project demonstrating RAG architecture in a practical application. For production use, implement proper security measures, authentication, and error handling.
