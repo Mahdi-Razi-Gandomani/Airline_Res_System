@@ -23,7 +23,7 @@ This project is a full-featured airline reservation system with a modern GUI bui
 These are some screenshots of the app.
 
 <p align="center">
-  <img src="screens/starter.png" alt="starter" width="45%"/>ta
+  <img src="screens/starter.png" alt="starter" width="45%"/>
   <img src="screens/signUp.png" alt="signup" width="45%"/>
 </p>
 
