@@ -18,6 +18,29 @@ This project is a full-featured airline reservation system with a modern GUI bui
 
 ---
 
+## Layout
+
+These are some screenshots of the app.
+
+<p align="center">
+  <img src="screens/starter.png" alt="starter" width="45%"/>ta
+  <img src="screens/signUp.png" alt="signup" width="45%"/>
+</p>
+
+
+<p align="center">
+  <img src="screens/search.png" alt="search" width="45%"/>
+  <img src="screens/book.png" alt="book" width="45%"/>
+  <img src="screens/mytickets.png" alt="mytickets" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="screens/chatbot.png" alt="chatbot" width="45%"/>
+</p>
+
+
+---
+
 ## Features
 
 ### For Passengers
