@@ -66,6 +66,49 @@ These are some screenshots of the app.
 
 ---
 
+## Project Structure
+
+```
+AirlineReservationSystem/
+├── include/                      # Header files (.h)
+│   ├── MainWindow.h
+│   ├── Person.h
+│   ├── Passenger.h
+│   ├── Admin.h
+│   ├── Flight.h
+│   ├── Ticket.h
+│   ├── FileManager.h
+│   ├── ReservationSystem.h
+│   ├── ChatBot.h
+│   └── ChatbotWidget.h
+├── src/                          # Source files (.cpp)
+│   ├── main_qt.cpp              # Qt application entry point
+│   ├── main.cpp              # CLI version
+│   ├── MainWindow.cpp           # Main GUI window
+│   ├── Person.cpp               # Base person class
+│   ├── Passenger.cpp            # Passenger functionality
+│   ├── Admin.cpp                # Admin functionality
+│   ├── Flight.cpp               # Flight management
+│   ├── Ticket.cpp               # Ticket management
+│   ├── FileManager.cpp          # File I/O operations
+│   ├── ReservationSystem.cpp    # Core system logic
+│   ├── chatBot.cpp              # AI chatbot implementation
+│   └── ChatbotWidget.cpp        # Chatbot UI
+├── models/                       # AI models (created by converter)
+│   ├── sbert_model.onnx         # Converted BERT model
+│   └── vocab.txt                # BERT vocabulary
+├── onnxruntime-*/               # ONNX Runtime library (you should download and add)
+│   ├── include/
+│   └── lib/
+├── bin/                          # Compiled executable (auto-generated)
+├── obj/                          # Object files (auto-generated)
+├── moc/                          # Qt MOC files (auto-generated)
+├── model_converter.py            # Python script to convert model
+└── AirlineSystem.pro             # Qt project file
+```
+
+---
+
 ## Requirements
 
 1. **Qt6** (Core, GUI, Widgets, Network)
@@ -189,49 +232,6 @@ nmake
 
 # Run
 bin\AirlineSystem.exe
-```
-
----
-
-## Project Structure
-
-```
-AirlineReservationSystem/
-├── include/                      # Header files (.h)
-│   ├── MainWindow.h
-│   ├── Person.h
-│   ├── Passenger.h
-│   ├── Admin.h
-│   ├── Flight.h
-│   ├── Ticket.h
-│   ├── FileManager.h
-│   ├── ReservationSystem.h
-│   ├── ChatBot.h
-│   └── ChatbotWidget.h
-├── src/                          # Source files (.cpp)
-│   ├── main_qt.cpp              # Qt application entry point
-│   ├── main.cpp              # CLI version
-│   ├── MainWindow.cpp           # Main GUI window
-│   ├── Person.cpp               # Base person class
-│   ├── Passenger.cpp            # Passenger functionality
-│   ├── Admin.cpp                # Admin functionality
-│   ├── Flight.cpp               # Flight management
-│   ├── Ticket.cpp               # Ticket management
-│   ├── FileManager.cpp          # File I/O operations
-│   ├── ReservationSystem.cpp    # Core system logic
-│   ├── chatBot.cpp              # AI chatbot implementation
-│   └── ChatbotWidget.cpp        # Chatbot UI
-├── models/                       # AI models (created by converter)
-│   ├── sbert_model.onnx         # Converted BERT model
-│   └── vocab.txt                # BERT vocabulary
-├── onnxruntime-*/               # ONNX Runtime library (you should download and add)
-│   ├── include/
-│   └── lib/
-├── bin/                          # Compiled executable (auto-generated)
-├── obj/                          # Object files (auto-generated)
-├── moc/                          # Qt MOC files (auto-generated)
-├── model_converter.py            # Python script to convert model
-└── AirlineSystem.pro             # Qt project file
 ```
 
 ---
